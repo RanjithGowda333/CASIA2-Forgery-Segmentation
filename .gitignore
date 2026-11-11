@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+# Large dataset directories
+Au/
+Tp/
+CASIA 2 Groundtruth/
+
+# Dataset images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Large model/checkpoint files
+*.pth
+*.pt
+*.ckpt
+
+# Generated predictions
+prepared/unet_baseline/validation_previews/
+prepared/unet_baseline/validation_all_predictions/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
